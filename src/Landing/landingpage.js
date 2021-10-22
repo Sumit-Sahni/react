@@ -1,7 +1,5 @@
 import React from 'react'
 import  './landing.css'
-import me from '../me.jpeg'
-import svgs from '../svg.png';
 import styled from 'styled-components'
 import logo from '../../src/logo.svg'
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./Home.css"
-import styled from 'styled-components';
 import Apiinfo from './NasaApiinfo';
 import MovieApiinfo from './MovieApiInfo'
 import { useDispatch } from 'react-redux';
