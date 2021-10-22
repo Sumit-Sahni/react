@@ -1,0 +1,24 @@
+ .Image{
+     max-width:100%;
+     max-height:100%;
+     box-shadow: 15px 8px 25px -8px #fff;
+ }
+ .main-container{
+     background-image: url('https://unsplash.com/photos/RoYujmHrdxA/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NTl8fGJsYWNrJTIwZG90dGVkJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE2MzQ1Mzk4NTA&force=true&w=1920');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width:100%;
+     height:auto;
+     color:#fff;
+     filter: blur(0px);
+     position:relative;
+ }
+ @media only screen and (max-width: 999px){
+    .main-container{
+        height:auto;
+    }
+    .fs-1{
+        font-size:10px!important;
+    }
+  }

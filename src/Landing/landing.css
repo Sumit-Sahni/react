@@ -1,0 +1,35 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1::backdrop{
+   transition: 2s;
+   color: aqua;
+}
+.image-box{
+   width:550px;
+   height:550px;
+   border-radius: 50%;
+   overflow: hidden;
+
+   /* border: 1px solid white; */
+}
+
+ul {
+   list-style:none;
+   margin-left: -33px;
+}
+ li {
+    display: inline-block;
+    font-size: 1.5rem;
+ }
+ @media only screen and (max-width: 767px){
+   .image-box{
+      width:300px;
+      height:auto;
+      margin: auto;
+   }
+ }
