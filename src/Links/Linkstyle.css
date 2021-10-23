@@ -4,9 +4,12 @@
 }
 a{
     text-decoration: none;
-    color: #fff;
+   color: black;
 }
+
+
 .box{
+    
     width:220px;
     height:220px;
     border-radius: 50%;
@@ -18,7 +21,7 @@ a{
     flex-direction: column;
     justify-content: center;
     font-size: 2rem;
-    box-shadow: 15px 8px 8px -6px #3b4347;
+    box-shadow: 15px 8px 8px -6px rgb(148, 144, 144);
 
 }
 .box-1{
@@ -40,9 +43,8 @@ a{
 } */
 
 .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover {
-  background-color: black;
  max-width: 250px;
- box-shadow: 6px 8px 8px -6px #3b4347;
+ box-shadow: 6px 8px 8px -6px rgb(148, 144, 144);
  transition:0.06s;
 
 

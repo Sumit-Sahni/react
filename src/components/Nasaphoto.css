@@ -1,16 +1,15 @@
  .Image{
      max-width:100%;
      max-height:100%;
-     box-shadow: 15px 8px 25px -8px #fff;
+     box-shadow: 15px 8px 25px -8px #222;
  }
  .main-container{
-     background-image: url('https://unsplash.com/photos/RoYujmHrdxA/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NTl8fGJsYWNrJTIwZG90dGVkJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE2MzQ1Mzk4NTA&force=true&w=1920');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      width:100%;
      height:auto;
-     color:#fff;
+     color:black;
      filter: blur(0px);
      position:relative;
  }

@@ -15,9 +15,9 @@ function App() {
 
        <Route exact path="/Navbar" component={Navbar} />
        <Route exact path="/Nasaphoto" component={Nasaphoto} />
-       <Route exact path="/" component={Landingpage} />
+      <Route exact path="/" component={Landingpage} />
+      <Route exact path="/" component={Home} />
        <Route exact path="/" component={Links} />
-       <Route exact path="/" component={Home} />
        <Route exact path="/MovieApis" component={MovieComponents} />
 
     </div>

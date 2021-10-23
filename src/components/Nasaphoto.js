@@ -26,7 +26,7 @@ const Nasaphoto = () => {
             <div className="container">
 
             <div className="row text-center ">
-                 <NavLink to="/" className=" text-white fs-1 my-5">Back To Home</NavLink>
+                 <NavLink to="/" className=" text-black fs-1 my-5">Back To Home</NavLink>
           </div>
                <div className="row py-3">
              
