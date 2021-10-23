@@ -5,8 +5,8 @@ const Container = styled.div`
     color: black;
     width:auto;
     height:auto;
-    /* border: 0.1px solid white; */
     transition: 1s;
+ 
 `;
 const MovieApiinfo = () => {
     return (

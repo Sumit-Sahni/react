@@ -29,10 +29,10 @@ const Home = () => {
         <div>
            
             <div className="fluid-container api-container py-5" >
-            <h1 className="text-center"  style={{color: "black"}}>API's Projects</h1><hr  style={{color: "white",width: "30%", margin: "auto"}}/>
+            <h1 className="text-center"  style={{color: "black"}}>API's Projects</h1><hr  style={{color: "black",width: "30%", margin: "auto"}}/>
                 <div className="container row-box py-5" >
                     <div className="row ">
-                        <div className="col-lg-3 col-md-6 col-6 api-link-font  text-center" >
+                        <div className="col-lg-3 col-md-6 col-6 api-link-font  text-center"  >
                             {showCard && <Apiinfo />}
                             <NavLink to="/Nasaphoto" style={{color:"#fffff"}}>NASA API's</NavLink>
                             <div className="info-box">

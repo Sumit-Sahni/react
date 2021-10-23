@@ -12,7 +12,7 @@ const Links = () => {
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: left;
-
+    font-family: 'Zen Kurenaido', sans-serif;
 `;
 
   return (
@@ -20,7 +20,7 @@ const Links = () => {
         
           <div className="container" >
         <div className="row ">
-          <div className="col-md-6 col-12 offset-md-3 text-center py-2" >
+          <div className="col-md-6 col-12 offset-md-3 text-center py-3" >
            <h1>Link's of my Projects</h1><hr  style={{color: "black",width: "30%", margin: "auto"}}/>
           </div>
             <div className="col-lg-12  d-flex flex-wrap flex-row justify-content-between link py-3">
