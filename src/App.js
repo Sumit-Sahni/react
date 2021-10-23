@@ -11,7 +11,7 @@ import MovieComponents from "./MovieApi/MovieComponents"
 function App() {
   return (
     <div>
-      <Router  basename={process.env.PUBLIC_URL}>
+      <Router  basename={process.env.PUBLIC_URL }>
         <Switch>
        <Route exact path="/Navbar" component={Navbar} />
        <Route exact path="/Nasaphoto" component={Nasaphoto} />
