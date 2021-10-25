@@ -13,7 +13,7 @@ const MainBox = styled.div`
  const  Landingpage = () => {
       return(
         <MainBox>
-        <div className="fluid-container land-img" style={{border: '1px solid black'}}>
+        <div className="container-fluid land-img" style={{border: '1px solid black'}}>
             <div className="container py-5 px-5">
                <div className="row">
                   <div className='col-lg-6 col-md-6 cl-12' style={{}} >
