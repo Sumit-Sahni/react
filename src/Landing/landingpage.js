@@ -7,12 +7,12 @@ import logo from '../../src/logo.svg'
 const MainBox = styled.div`
    color: black;
    height: 820px;
-  
+   width: 100%;
    font-family: 'Zen Antique', serif;
    `;
  const  Landingpage = () => {
       return(
-        <MainBox  >
+        <MainBox>
         <div className="fluid-container land-img" style={{border: '1px solid black'}}>
             <div className="container py-5 px-5">
                <div className="row">
