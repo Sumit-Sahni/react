@@ -11,9 +11,9 @@ const Container = styled.div`
 const Apiinfo = () => {
     return (
         <Container>
-            <div className="container">
+            <div className="container px-3">
                 <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 ">
                         <h3>About</h3>
                         <p className="fs-6">This Api changes everyday, it provides information about space including picture with description.</p>
                     </div>

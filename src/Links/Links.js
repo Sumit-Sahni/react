@@ -12,7 +12,6 @@ const Links = () => {
     background-repeat: no-repeat;
     background-size:cover;
     background-position-x: left;
-    font-family: 'Zen Kurenaido', sans-serif;
 `;
 
   return (

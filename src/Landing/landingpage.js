@@ -1,7 +1,8 @@
 import React from 'react'
 import  './landing.css'
 import styled from 'styled-components'
-import logo from '../../src/logo.svg'
+import logo from '../../src/logo.svg';
+
 
 
 const MainBox = styled.div`
@@ -28,7 +29,7 @@ const  Landingpage = () => {
                         <p>See bits and pieces of  design work and prototyping on</p>
                          <ul>
                             <li  style={{color:"#f06"}}>Instagram</li>
-                            <li className="mx-4"  style={{color:"#067"}}>Facebook</li>
+                            <li className="mx-2"  style={{color:"#067"}}>Facebook</li>
                             <li style={{color:"#0cf"}}>Twitter</li>
                           </ul>
                   

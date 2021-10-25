@@ -11,7 +11,7 @@ const Container = styled.div`
 const MovieApiinfo = () => {
     return (
         <Container>
-            <div className="container">
+            <div className="container px-3">
                 <div className="row">
                     <div className="col-lg-12">
                         <h3>About</h3>
