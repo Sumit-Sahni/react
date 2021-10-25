@@ -19,8 +19,8 @@ function App() {
           <Route exact path="/" component={Landingpage} />
           <Route exact path="/" component={Home} />
           <Route exact path="/" component={Links} />
-      <Route exact path="/MovieApis" component={MovieComponents} />
-      <Route exact path="/" component={Footercomp}/>
+          <Route exact path="/MovieApis" component={MovieComponents} />
+          <Route exact path="/" component={Footercomp}/>
       
     </div>
   );

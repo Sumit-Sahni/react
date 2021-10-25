@@ -24,6 +24,7 @@ const Home = () => {
     const MovieApiinfoHandler = (e) =>{
         e.preventDefault();
         dispatch(apiAction.toggle2())
+
       }
     return (
         <div>

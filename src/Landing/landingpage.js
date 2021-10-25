@@ -2,6 +2,7 @@ import React from 'react'
 import  './landing.css'
 import styled from 'styled-components'
 import logo from '../../src/logo.svg';
+import "../../src/App.css"
 
 
 
@@ -39,11 +40,13 @@ const  Landingpage = () => {
                            <h2>UI/UX Interactive, Mobile App & <br/>Video Animator</h2>
                       </div>
                   </div>
-                  <div className=' cl-0 col-lg-6 col-md-6 img-container ' style={{  }}>
-                  <img className="image-box" src={logo} alt="me" />
-                  
-                
-                  </div>
+                <div className=' cl-0 col-lg-6  col-md-6 img-container ' style={{}}>
+                     <div className="App my-3">
+                        <header className="App-header">
+                          <img src={logo} className="App-logo" alt="logo" />
+                        </header>
+                     </div>                  
+                   </div>
                 </div>
          
             </div>
