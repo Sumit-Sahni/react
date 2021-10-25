@@ -14,6 +14,8 @@ const MainBox = styled.div`
   background-repeat: no-repeat;
   background-size:cover;
   font-family: 'Zen Antique', serif;
+  box-shadow: 0px -5px 60px 1px rgb(0, 0, 0)
+
 `;
 
 const  Landingpage = () => {
