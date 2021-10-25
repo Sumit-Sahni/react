@@ -14,7 +14,12 @@ function App() {
 
   return (
     <div>
-       <Route exact path="/" component={Landingpage} />
+          <Route exact path="/Nasaphoto" component={Nasaphoto} />
+      <Route exact path="/" component={Landingpage} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/" component={Links} />
+  
+       <Route exact path="/MovieApis" component={MovieComponents} />
       
     </div>
   );
