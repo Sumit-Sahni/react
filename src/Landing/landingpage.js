@@ -5,7 +5,6 @@ import logo from '../../src/logo.svg';
 import "../../src/App.css"
 
 
-
 const MainBox = styled.div`
   color: black;
   height: auto;
@@ -14,21 +13,23 @@ const MainBox = styled.div`
   background-repeat: no-repeat;
   background-size:cover;
   font-family: 'Zen Antique', serif;
-  box-shadow: 0px -5px 60px 1px rgb(0, 0, 0)
-
 `;
+
 
 const  Landingpage = () => {
       return(
         <MainBox>
+       
         <div className="container-fluid land-img">
+
             <div className="container px-5 py-5">
+
                <div className="row">
-                  <div className='col-lg-6 col-md-12 cl-12' style={{}} >
+                  <div className='col-lg-6 col-md-12 cl-12'>
                       <div className="my-5">
                          <h1><span style={{color:"#89715b"}}>Hello!</span> I am Sumit Sahni,<br/>Interactive Developer based <br/> in India.</h1>
                       </div>
-                      <div  style={{}}>
+                      <div>
                         <p>See bits and pieces of  design work and prototyping on</p>
                          <ul>
                             <li  style={{color:"#f06"}}>Instagram</li>
@@ -42,7 +43,7 @@ const  Landingpage = () => {
                            <h2>UI/UX Interactive, Mobile App & <br/>Video Animator</h2>
                       </div>
                   </div>
-                <div className=' cl-0 col-lg-6  col-md-6 img-container ' style={{}}>
+                <div className=' cl-0 col-lg-6  col-md-6 img-container ' >
                      <div className="App my-3">
                         <header className="App-header">
                           <img src={logo} className="App-logo" alt="logo" />
